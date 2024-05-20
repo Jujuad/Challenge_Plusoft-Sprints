@@ -41,55 +41,101 @@ Acessar a Aplicação:
 Acesse a aplicação através do Postman, utilizando os endpoints definidos na lista.
 
 # Lista de endpoints
-
 1.	Usuários:
-•	GET /usuarios: Retorna todos os usuários.
-•	GET /usuarios/{id}: Retorna um usuário específico pelo ID.
-•	POST /usuarios: Cria um novo usuário.
-•	PUT /usuarios/{id}: Atualiza um usuário existente pelo ID.
-•	DELETE /usuarios/{id}: Remove um usuário pelo ID.
+
+GET /usuarios: Retorna todos os usuários.
+
+GET /usuarios/{id}: Retorna um usuário específico pelo ID.
+
+POST /usuarios: Cria um novo usuário.
+
+PUT /usuarios/{id}: Atualiza um usuário existente pelo ID.
+
+DELETE /usuarios/{id}: Remove um usuário pelo ID.
+
 2.	Empresas:
-•	GET /empresas: Retorna todas as empresas.
-•	GET /empresas/{id}: Retorna uma empresa específica pelo ID.
-•	POST /empresas: Cria uma nova empresa.
-•	PUT /empresas/{id}: Atualiza uma empresa existente pelo ID.
-•	DELETE /empresas/{id}: Remove uma empresa pelo ID.
+
+GET /empresas: Retorna todas as empresas.
+
+GET /empresas/{id}: Retorna uma empresa específica pelo ID.
+
+POST /empresas: Cria uma nova empresa.
+
+PUT /empresas/{id}: Atualiza uma empresa existente pelo ID.
+
+DELETE /empresas/{id}: Remove uma empresa pelo ID.
+
 3.	Colaboradores:
-•	GET /colaboradores: Retorna todos os colaboradores.
-•	GET /colaboradores/{id}: Retorna um colaborador específico pelo ID.
-•	POST /colaboradores: Cria um novo colaborador.
-•	PUT /colaboradores/{id}: Atualiza um colaborador existente pelo ID.
-•	DELETE /colaboradores/{id}: Remove um colaborador pelo ID.
+
+GET /colaboradores: Retorna todos os colaboradores.
+
+GET /colaboradores/{id}: Retorna um colaborador específico pelo ID.
+
+POST /colaboradores: Cria um novo colaborador.
+
+PUT /colaboradores/{id}: Atualiza um colaborador existente pelo ID.
+
+DELETE /colaboradores/{id}: Remove um colaborador pelo ID.
+
 4.	Endereços:
-•	GET /enderecos: Retorna todos os endereços.
-•	GET /enderecos/{id}: Retorna um endereço específico pelo ID.
-•	POST /enderecos: Cria um novo endereço.
-•	PUT /enderecos/{id}: Atualiza um endereço existente pelo ID.
-•	DELETE /enderecos/{id}: Remove um endereço pelo ID.
+
+GET /enderecos: Retorna todos os endereços.
+
+GET /enderecos/{id}: Retorna um endereço específico pelo ID.
+
+POST /enderecos: Cria um novo endereço.
+
+PUT /enderecos/{id}: Atualiza um endereço existente pelo ID.
+
+DELETE /enderecos/{id}: Remove um endereço pelo ID.
+
 5.	Concorrentes:
-•	GET /concorrentes: Retorna todos os concorrentes.
-•	GET /concorrentes/{id}: Retorna um concorrente específico pelo ID.
-•	POST /concorrentes: Cria um novo concorrente.
-•	PUT /concorrentes/{id}: Atualiza um concorrente existente pelo ID.
-•	DELETE /concorrentes/{id}: Remove um concorrente pelo ID.
+
+GET /concorrentes: Retorna todos os concorrentes.
+
+GET /concorrentes/{id}: Retorna um concorrente específico pelo ID.
+
+POST /concorrentes: Cria um novo concorrente.
+
+PUT /concorrentes/{id}: Atualiza um concorrente existente pelo ID.
+
+DELETE /concorrentes/{id}: Remove um concorrente pelo ID.
+
 6.	Websites:
-•	GET /websites: Retorna todos os websites.
-•	GET /websites/{id}: Retorna um website específico pelo ID.
-•	POST /websites: Cria um novo website.
-•	PUT /websites/{id}: Atualiza um website existente pelo ID.
-•	DELETE /websites/{id}: Remove um website pelo ID.
+
+GET /websites: Retorna todos os websites.
+
+GET /websites/{id}: Retorna um website específico pelo ID.
+
+POST /websites: Cria um novo website.
+
+PUT /websites/{id}: Atualiza um website existente pelo ID.
+
+DELETE /websites/{id}: Remove um website pelo ID.
+
 7.	Análises:
-•	GET /analises: Retorna todas as análises.
-•	GET /analises/{id}: Retorna uma análise específica pelo ID.
-•	POST /analises: Cria uma nova análise.
-•	PUT /analises/{id}: Atualiza uma análise existente pelo ID.
-•	DELETE /analises/{id}: Remove uma análise pelo ID.
+
+GET /analises: Retorna todas as análises.
+
+GET /analises/{id}: Retorna uma análise específica pelo ID.
+
+POST /analises: Cria uma nova análise.
+
+PUT /analises/{id}: Atualiza uma análise existente pelo ID.
+
+DELETE /analises/{id}: Remove uma análise pelo ID.
+
 8.	Tráfego:
-•	GET /trafego: Retorna todo o tráfego.
-•	GET /trafego/{id}: Retorna um registro de tráfego específico pelo ID.
-•	POST /trafego: Cria um novo registro de tráfego.
-•	PUT /trafego/{id}: Atualiza um registro de tráfego existente pelo ID.
-•	DELETE /trafego/{id}: Remove um registro de tráfego pelo ID.
+
+GET /trafego: Retorna todo o tráfego.
+
+GET /trafego/{id}: Retorna um registro de tráfego específico pelo ID.
+
+POST /trafego: Cria um novo registro de tráfego.
+
+PUT /trafego/{id}: Atualiza um registro de tráfego existente pelo ID.
+
+DELETE /trafego/{id}: Remove um registro de tráfego pelo ID.
 
 # Diagramas:
 
