@@ -1,4 +1,4 @@
-# Spring-Challenge01
+# Challenge_Plusoft-Sprint2
 Esse repositório é direcionado a segunda entrega do Challenge - Plusoft 
 
 # Aplicação - Insight IA
