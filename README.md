@@ -1,5 +1,5 @@
-# Challenge_Plusoft-Sprint2
-Esse repositório é direcionado a segunda entrega do Challenge - Plusoft 
+# Challenge_Plusoft-Sprints 
+Esse repositório é direcionado as entregas do Challenge - Plusoft 
 
 # Aplicação - Insight IA
 

@@ -27,7 +27,7 @@ public class WebsiteController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Website> buscarWebsitePorId(@PathVariable Long id) {
-        Website website = websiteService.buscarWebsitePorId(id);
+        Website website = (Website) websiteService.buscarWebsitePorId(id);
         return ResponseEntity.ok(website);
     }
 

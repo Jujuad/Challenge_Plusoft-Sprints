@@ -1,5 +1,17 @@
 package br.com.fiap.challengePlusoft.controller;
 
+import br.com.fiap.challengePlusoft.dto.TrafegoDTO;
+import br.com.fiap.challengePlusoft.model.Trafego;
+import br.com.fiap.challengePlusoft.service.TrafegoService;
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UriComponents;
+import org.springframework.web.util.UriComponentsBuilder;
+
+import java.util.List;
+
 @RestController
 @RequestMapping("/trafegos")
 @RequiredArgsConstructor
