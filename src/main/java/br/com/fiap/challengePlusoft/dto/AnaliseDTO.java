@@ -8,7 +8,6 @@ import java.util.Date;
 
 @Data
 public class AnaliseDTO {
-
     private Long id;
 
     @NotNull
@@ -30,4 +29,3 @@ public class AnaliseDTO {
         this.idTrafego = idTrafego;
     }
 }
-

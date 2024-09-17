@@ -13,4 +13,3 @@ public class ColaboradorDTO {
     @NotNull
     private Long idEmpresa;
 }
-

@@ -1,10 +1,11 @@
 package br.com.fiap.challengePlusoft.dto;
 
-import br.com.fiap.challengePlusoft.model.Trafego;
 import jakarta.validation.constraints.NotNull;
+import lombok.Data;
 
 import java.time.LocalDateTime;
 
+@Data
 public class TrafegoDTO {
     @NotNull
     private Integer numVisitantes;
@@ -15,19 +16,12 @@ public class TrafegoDTO {
     @NotNull
     private Long idWebsite;
 
-    public TrafegoDTO(Trafego trafego) {
+    public TrafegoDTO() {
     }
 
-    public Integer getNumVisitantes() {
-        return 0;
-    }
-
-    public LocalDateTime getTempoMedioVisitaSite() {
-        return null;
-    }
-
-    public Object getIdWebsite() {
-        return null;
+    public TrafegoDTO(Integer numVisitantes, LocalDateTime tempoMedioVisitaSite, Long idWebsite) {
+        this.numVisitantes = numVisitantes;
+        this.tempoMedioVisitaSite = tempoMedioVisitaSite;
+        this.idWebsite = idWebsite;
     }
 }
-
